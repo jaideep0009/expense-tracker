@@ -27,7 +27,7 @@
       <version>20230227</version>
     </dependency>
 
-    <!-- Optional: If you want slf4j/logging later -->
+    <!--  slf4j/logging later -->
   </dependencies>
 
   <build>
@@ -41,7 +41,7 @@
           <target>${maven.compiler.target}</target>
         </configuration>
       </plugin>
-      <!-- Create an executable jar including dependencies (optional) -->
+      <!-- executable jar including dependencies -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
