@@ -10,7 +10,7 @@ public class Transaction {
     private String category;
     private double amount;
     private LocalDate date;
-    private String note;         // optional
+    private String note;         
 
     // Constructor for new transaction (ID auto-generated)
     public Transaction(String type, String category, double amount, LocalDate date, String note) {
@@ -22,7 +22,7 @@ public class Transaction {
         this.note = note;
     }
 
-    // Constructor for loading from JSON (ID already exists)
+    // Constructor for loading from JSON 
     public Transaction(String id, String type, String category, double amount, LocalDate date, String note) {
         this.id = id;
         this.type = type;
